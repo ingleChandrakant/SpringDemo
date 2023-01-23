@@ -22,7 +22,16 @@ public class StudentControleer {
 	}
 
 // changes
-
+	@RequestMapping("/first")
+	public String welcomeMassage(){
+		return "ok";
+		/// added
+	}
+	@RequestMapping("/second")
+	public String welcomeMassage(){
+		return "not ok";
+		
+	}
 
 }
 
